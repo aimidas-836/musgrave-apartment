@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You - Message Received | Senior Apartment Musgrave</title>
+    <meta name="description" content="Thank you for your inquiry about our senior apartment in Musgrave, Durban. We will contact you shortly.">
+    
+    <!-- Font Awesome for Professional Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #006B3F 0%, #00A859 50%, #00D46E 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .thank-you-container {
+            background: white;
+            padding: 60px 50px;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
+            animation: fadeInUp 0.6s ease;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .success-icon {
+            width: 100px;
+            height: 100px;
+            margin: 0 auto 30px;
+            background: linear-gradient(135deg, #00A859, #00D46E);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3em;
+            color: white;
+            box-shadow: 0 6px 20px rgba(0,168,89,0.4);
+            animation: scaleIn 0.5s ease 0.3s both;
+        }
+        
+        @keyframes scaleIn {
+            from {
+                transform: scale(0);
+            }
+            to {
+                transform: scale(1);
+            }
+        }
+        
+        h1 {
+            color: #006B3F;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        
+        .subtitle {
+            color: #FF6B35;
+            font-size: 1.3em;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+        
+        p {
+            color: #555;
+            font-size: 1.1em;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+        
+        .info-box {
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            padding: 25px;
+            border-radius: 12px;
+            margin: 30px 0;
+            border-left: 5px solid #00A859;
+        }
+        
+        .info-box p {
+            margin-bottom: 10px;
+        }
+        
+        .info-box strong {
+            color: #006B3F;
+        }
+        
+        .button-group {
+            margin-top: 40px;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 15px 35px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 1.1em;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #FF6B35, #FFA94D);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: linear-gradient(135deg, #00A859, #00D46E);
+            transform: translateY(-3px);
+            box-shadow: 0 6px 16px rgba(0,168,89,0.4);
+        }
+        
+        .btn-secondary {
+            background: white;
+            color: #006B3F;
+            border: 2px solid #006B3F;
+        }
+        
+        .btn-secondary:hover {
+            background: #006B3F;
+            color: white;
+            transform: translateY(-3px);
+        }
+        
+        .btn i {
+            margin-right: 8px;
+        }
+        
+        .contact-info {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 2px solid #e9ecef;
+        }
+        
+        .contact-info h3 {
+            color: #006B3F;
+            margin-bottom: 20px;
+            font-size: 1.3em;
+        }
+        
+        .contact-detail {
+            display: inline-flex;
+            align-items: center;
+            margin: 0 15px 10px;
+            color: #666;
+            font-size: 1em;
+        }
+        
+        .contact-detail i {
+            color: #00A859;
+            margin-right: 8px;
+            font-size: 1.2em;
+        }
+        
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e9ecef;
+            color: #999;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 768px) {
+            .thank-you-container {
+                padding: 40px 30px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .subtitle {
+                font-size: 1.1em;
+            }
+            
+            .button-group {
+                flex-direction: column;
+            }
+            
+            .btn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="thank-you-container">
+        <div class="success-icon">
+            <i class="fas fa-check"></i>
+        </div>
+        
+        <h1>Thank You!</h1>
+        <p class="subtitle">Your Message Has Been Received</p>
+        
+        <p>
+            We appreciate your interest in our 53m² senior apartment in Musgrave, Durban. 
+            Your inquiry has been successfully submitted and sent directly to our team.
+        </p>
+        
+        <div class="info-box">
+            <p><strong><i class="fas fa-clock"></i> Response Time:</strong> We will review your message and respond within 24-48 hours.</p>
+            <p><strong><i class="fas fa-envelope"></i> Email Confirmation:</strong> You should receive a confirmation email shortly at the address you provided.</p>
+            <p><strong><i class="fas fa-phone"></i> Urgent Inquiries:</strong> If you need immediate assistance, please check your email for our contact details.</p>
+        </div>
+        
+        <div class="button-group">
+            <a href="index.html" class="btn btn-primary">
+                <i class="fas fa-arrow-left"></i> Back to Property
+            </a>
+            <a href="index.html#contact" class="btn btn-secondary">
+                <i class="fas fa-envelope"></i> Send Another Message
+            </a>
+        </div>
+        
+        <div class="contact-info">
+            <h3>Property Details</h3>
+            <div class="contact-detail">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Musgrave, Durban</span>
+            </div>
+            <div class="contact-detail">
+                <i class="fas fa-home"></i>
+                <span>53m² | 1 Bed | 1 Bath</span>
+            </div>
+            <div class="contact-detail">
+                <i class="fas fa-tag"></i>
+                <span>ZAR 1,150,000</span>
+            </div>
+        </div>
+        
+        <footer>
+            <p>&copy; 2025 Senior Apartment Musgrave. All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
